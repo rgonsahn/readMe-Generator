@@ -1,10 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license, license2, license3, license4) {
-  return license ? '![MIT](https://img.shields.io/badge/license-MIT-blue)' :
-    license2 ? '![Apache]https://img.shields.io/badge/license-Apache%202.0-yellowgreen' :
-      license3 ? '![GPL]https://img.shields.io/badge/license-GPL-red' :
-        license4 ? "" :
+var license;
+switch (licenseType) {
+  case 1:
+    license = '![MIT](https://img.shields.io/badge/license-MIT-blue)';
+    break;
+  case 2:
+    license = '![Apache]https://img.shields.io/badge/license-Apache%202.0-yellowgreen';
+    break;
+  case 3:
+    license = '![GPL]https://img.shields.io/badge/license-GPL-red';
+    break;
+  case 4:
+    license = "";
+    break;
+    default:
+      license = "invalid license"
 }
 
 // TODO: Create a function that returns the license link
@@ -25,3 +36,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
