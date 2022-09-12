@@ -25,23 +25,41 @@ const questions = [
 
     },
     {
+        type:'checkbox',
+        name: 'table',
+        message: 'What are the contents of your README.md file?', 
+        choices:[
+            'Description', 'Installation', 'Usage', 'Contributions', 'Test', 'Questions',
+        ]
+    },
+    {
         type: 'input',
         name: 'installation',
         message: 'How do you install your application?'
     },
     {
         type: 'input',
-        name: 'features',
-        message: 'What are the features of your applicationn?'
+        name: 'usage',
+        message: 'What are the uses for the application?'
     },
     {
         type: 'input',
-        name: 'githubPages',
+        name: 'contributing',
+        message:'How can others contribute?'
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'How did you debug the code?'
+    },
+    {
+        type: 'input',
+        name: 'questions',
         message: 'What is the url for your Github Pages?',
     },
     {
         type: 'input',
-        name: 'Project_Repo',
+        name: 'questions',
         message: 'What is the url for the project repo?',
     }, 
     {

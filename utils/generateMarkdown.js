@@ -50,23 +50,37 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ## License
 ${myLicense(data.license)}
+***
 ## Description
 ${data.description}
+***
+## Table of Contents
+${data.table}
 ## Installation 
 To install this application you will need to install the following dependencies and packages:
 ${data.installation}
-## Features 
+***
+## Usage
 The application includes the following features:
-* ${data.features}
-* ${data.features}
-* ${data.features}
-* ${data.features} 
-## Check it out on Github! 
-${data.githubPages} 
-## Repository Link 
-${data.Project_Repo} 
-## ${data.Screenshot}
-## Other Links 
+* ${data.usage}
+***
+## Questions
+${data.questions} 
+***
+${data.questions} 
+***
+## Test
+The following test were ran to debug the application:
+${data.test}
+***
+## Contributions
+You can contribute to this project by:
+${data.contributing}
+***
+## 
+${data.Screenshot}
+***
+## Screencast Link
 ${data.Screencast}
 
 `;
