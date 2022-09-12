@@ -36,7 +36,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Github Pages',
+        name: 'githubPages',
         message: 'What is the url for your Github Pages?',
     },
     {
@@ -44,6 +44,12 @@ const questions = [
         name: 'Project_Repo',
         message: 'What is the url for the project repo?',
     }, 
+    {
+        type:'input',
+        name: 'Screenshot',
+        message: 'Place the link to your screenshot here.'
+
+    },
     {
         type:'input',
         name: 'Screencast',
