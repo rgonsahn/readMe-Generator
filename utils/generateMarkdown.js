@@ -3,13 +3,13 @@
 function myLicense(license) {
   switch (license) {
     case 'MIT':
-      license = '![MIT](https://img.shields.io/badge/license-MIT-blue)';
+      license = '![License:MIT](https://img.shields.io/badge/license-MIT-blue)';
       break;
     case 'Apache 2.0':
-      license = '![Apache]https://img.shields.io/badge/license-Apache%202.0-yellowgreen';
+      license = '![License:Apache]https://img.shields.io/badge/license-Apache%202.0-yellowgreen';
       break;
     case 'GPL':
-      license = '![GPL]https://img.shields.io/badge/license-GPL-red';
+      license = '![License:GPL]https://img.shields.io/badge/license-GPL-red';
       break;
     case '':
       license = "";
@@ -65,9 +65,7 @@ The application includes the following features:
 * ${data.usage}
 ***
 ## Questions
-${data.questions} 
-***
-${data.questions} 
+${data.questions}  
 ***
 ## Test
 The following test were ran to debug the application:

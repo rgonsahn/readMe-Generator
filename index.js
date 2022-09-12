@@ -25,10 +25,10 @@ const questions = [
 
     },
     {
-        type:'checkbox',
+        type: 'checkbox',
         name: 'table',
-        message: 'What are the contents of your README.md file?', 
-        choices:[
+        message: 'What are the contents of your README.md file?',
+        choices: [
             'Description', 'Installation', 'Usage', 'Contributions', 'Test', 'Questions',
         ]
     },
@@ -45,7 +45,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message:'How can others contribute?'
+        message: 'How can others contribute?'
     },
     {
         type: 'input',
@@ -61,15 +61,21 @@ const questions = [
         type: 'input',
         name: 'questions',
         message: 'What is the url for the project repo?',
-    }, 
+    },
     {
-        type:'input',
+        type: 'input',
+        name: 'questions',
+        message: 'What is your email address?'
+
+    },
+    {
+        type: 'input',
         name: 'Screenshot',
         message: 'Place the link to your screenshot here.'
 
     },
     {
-        type:'input',
+        type: 'input',
         name: 'Screencast',
         message: 'What is the url for the screencast demo?'
     }
