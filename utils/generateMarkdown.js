@@ -6,10 +6,10 @@ function myLicense(license) {
       license = '![License:MIT](https://img.shields.io/badge/license-MIT-blue)';
       break;
     case 'Apache 2.0':
-      license = '![License:Apache]https://img.shields.io/badge/license-Apache%202.0-yellowgreen';
+      license = '![License:Apache](https://img.shields.io/badge/license-Apache%202.0-yellowgreen)';
       break;
     case 'GPL':
-      license = '![License:GPL]https://img.shields.io/badge/license-GPL-red';
+      license = '![License:GPL](https://img.shields.io/badge/license-GPL-red)';
       break;
     case '':
       license = "";
@@ -50,34 +50,51 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ## License
 ${myLicense(data.license)}
-***
+
+
+
 ## Description
 ${data.description}
-***
+
+
+
 ## Table of Contents
-${data.table}
+[${data.table}](#description)
+
+
+
 ## Installation 
 To install this application you will need to install the following dependencies and packages:
 ${data.installation}
-***
+
+
+
 ## Usage
 The application includes the following features:
 * ${data.usage}
-***
+
+
+
 ## Questions
 ${data.questions}  
-***
+
+
+
 ## Test
 The following test were ran to debug the application:
 ${data.test}
-***
+
+
 ## Contributions
 You can contribute to this project by:
 ${data.contributing}
-***
+
+
+
+
 ## 
 ${data.Screenshot}
-***
+
 ## Screencast Link
 ${data.Screencast}
 
