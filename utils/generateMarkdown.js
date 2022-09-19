@@ -59,7 +59,19 @@ ${data.description}
 
 
 ## Table of Contents
-[${data.table}](#description)
+[Description](#description) 
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Questions](#questions)
+
+[Test](#test)
+
+[Contributions](#contributions)
+
+[License](#license)
 
 
 
@@ -76,7 +88,11 @@ The application includes the following features:
 
 
 ## Questions
-${data.questions}  
+${data.questions}
+
+${data.questions2}
+
+${data.questions3}
 
 
 
@@ -86,7 +102,7 @@ ${data.test}
 
 
 ## Contributions
-You can contribute to this project by:
+You can contribute to this project by: 
 ${data.contributing}
 
 

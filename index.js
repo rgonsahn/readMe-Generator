@@ -59,12 +59,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions2',
         message: 'What is the url for the project repo?',
     },
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions3',
         message: 'What is your email address?'
 
     },

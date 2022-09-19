@@ -1,51 +1,67 @@
-# we
+# Professional README.md Generator
 ## License
-![License:Apache](https://img.shields.io/badge/license-Apache%202.0-yellowgreen)
+![License:MIT](https://img.shields.io/badge/license-MIT-blue)
 
 
 
 ## Description
-we
+Generates a formatted readMe file
 
 
 
 ## Table of Contents
-[Description](#description)
+[Description](#description) 
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Questions](#questions)
+
+[Test](#test)
+
+[Contributions](#contributions)
+
+[License](#license)
 
 
 
 ## Installation 
 To install this application you will need to install the following dependencies and packages:
-we
+npm install, node js, npm inquirer package
 
 
 
 ## Usage
 The application includes the following features:
-* we
+* several
 
 
 
 ## Questions
-we  
+coming soon
+
+https://github.com/rgonsahn/readMe-Generator 
+
+rgonsahn@yahoo.com
 
 
 
 ## Test
 The following test were ran to debug the application:
-we
+npm run test file coming soon
 
 
 ## Contributions
-You can contribute to this project by:
-we
+You can contribute to this project by: 
+submit a pull request on github
 
 
 
 
 ## 
-we
+coming soon
 
 ## Screencast Link
-we
+coming soon
 
