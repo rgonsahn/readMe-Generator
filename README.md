@@ -30,7 +30,7 @@ All queries about my repo can be addressed via email at rgonsahn@yahoo.com or fo
 
 
 ## Screenshot 
-![READMEGENERATORPHOTO](readMe-Generator/readMepic.png) 
+![READMEGENERATORPHOTO](readMepic.png) 
 
 
 
